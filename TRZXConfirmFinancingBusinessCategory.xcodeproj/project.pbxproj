@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EED2D667F1F12F60954617F /* libPods-TRZXConfirmFinancingBusinessCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C237DCFF84A7CE34B1651100 /* libPods-TRZXConfirmFinancingBusinessCategory.a */; };
+		7159826F1E33225900327798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159826E1E33225900327798 /* main.m */; };
+		715982721E33225900327798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715982711E33225900327798 /* AppDelegate.m */; };
+		715982751E33225900327798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715982741E33225900327798 /* ViewController.m */; };
+		715982781E33225900327798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715982761E33225900327798 /* Main.storyboard */; };
+		7159827A1E33225900327798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715982791E33225900327798 /* Assets.xcassets */; };
+		7159827D1E33225900327798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7159827B1E33225900327798 /* LaunchScreen.storyboard */; };
+		715982871E3322D500327798 /* CTMediator+TRZXConfirmFinancing.m in Sources */ = {isa = PBXBuildFile; fileRef = 715982861E3322D500327798 /* CTMediator+TRZXConfirmFinancing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4DFAA97359F6DC4557A4FE /* Pods-TRZXConfirmFinancingBusinessCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXConfirmFinancingBusinessCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXConfirmFinancingBusinessCategory/Pods-TRZXConfirmFinancingBusinessCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		7159826A1E33225900327798 /* TRZXConfirmFinancingBusinessCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXConfirmFinancingBusinessCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7159826E1E33225900327798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715982701E33225900327798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		715982711E33225900327798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		715982731E33225900327798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		715982741E33225900327798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		715982771E33225900327798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715982791E33225900327798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7159827C1E33225900327798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7159827E1E33225900327798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715982851E3322D500327798 /* CTMediator+TRZXConfirmFinancing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXConfirmFinancing.h"; sourceTree = "<group>"; };
+		715982861E3322D500327798 /* CTMediator+TRZXConfirmFinancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXConfirmFinancing.m"; sourceTree = "<group>"; };
+		AB15AAB0761D6DC832FC41DD /* Pods-TRZXConfirmFinancingBusinessCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXConfirmFinancingBusinessCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXConfirmFinancingBusinessCategory/Pods-TRZXConfirmFinancingBusinessCategory.release.xcconfig"; sourceTree = "<group>"; };
+		C237DCFF84A7CE34B1651100 /* libPods-TRZXConfirmFinancingBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXConfirmFinancingBusinessCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715982671E33225900327798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EED2D667F1F12F60954617F /* libPods-TRZXConfirmFinancingBusinessCategory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36ADA6DF421CB951F8806249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C237DCFF84A7CE34B1651100 /* libPods-TRZXConfirmFinancingBusinessCategory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715982611E33225900327798 = {
+			isa = PBXGroup;
+			children = (
+				7159826C1E33225900327798 /* TRZXConfirmFinancingBusinessCategory */,
+				7159826B1E33225900327798 /* Products */,
+				BA9DD003AE43E01CACD2E0FB /* Pods */,
+				36ADA6DF421CB951F8806249 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7159826B1E33225900327798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7159826A1E33225900327798 /* TRZXConfirmFinancingBusinessCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7159826C1E33225900327798 /* TRZXConfirmFinancingBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				715982841E3322A200327798 /* TRZXConfirmFinancingBusinessCategory */,
+				715982701E33225900327798 /* AppDelegate.h */,
+				715982711E33225900327798 /* AppDelegate.m */,
+				715982731E33225900327798 /* ViewController.h */,
+				715982741E33225900327798 /* ViewController.m */,
+				715982761E33225900327798 /* Main.storyboard */,
+				715982791E33225900327798 /* Assets.xcassets */,
+				7159827B1E33225900327798 /* LaunchScreen.storyboard */,
+				7159827E1E33225900327798 /* Info.plist */,
+				7159826D1E33225900327798 /* Supporting Files */,
+			);
+			path = TRZXConfirmFinancingBusinessCategory;
+			sourceTree = "<group>";
+		};
+		7159826D1E33225900327798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7159826E1E33225900327798 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715982841E3322A200327798 /* TRZXConfirmFinancingBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				715982851E3322D500327798 /* CTMediator+TRZXConfirmFinancing.h */,
+				715982861E3322D500327798 /* CTMediator+TRZXConfirmFinancing.m */,
+			);
+			path = TRZXConfirmFinancingBusinessCategory;
+			sourceTree = "<group>";
+		};
+		BA9DD003AE43E01CACD2E0FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B4DFAA97359F6DC4557A4FE /* Pods-TRZXConfirmFinancingBusinessCategory.debug.xcconfig */,
+				AB15AAB0761D6DC832FC41DD /* Pods-TRZXConfirmFinancingBusinessCategory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715982691E33225900327798 /* TRZXConfirmFinancingBusinessCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715982811E33225900327798 /* Build configuration list for PBXNativeTarget "TRZXConfirmFinancingBusinessCategory" */;
+			buildPhases = (
+				8260382E35ED658FAC4584C6 /* [CP] Check Pods Manifest.lock */,
+				715982661E33225900327798 /* Sources */,
+				715982671E33225900327798 /* Frameworks */,
+				715982681E33225900327798 /* Resources */,
+				41B7D7B6AEBD41722CD0E58B /* [CP] Embed Pods Frameworks */,
+				97052453D12BBFF8E154DCE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXConfirmFinancingBusinessCategory;
+			productName = TRZXConfirmFinancingBusinessCategory;
+			productReference = 7159826A1E33225900327798 /* TRZXConfirmFinancingBusinessCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715982621E33225900327798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRZX;
+				TargetAttributes = {
+					715982691E33225900327798 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 715982651E33225900327798 /* Build configuration list for PBXProject "TRZXConfirmFinancingBusinessCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715982611E33225900327798;
+			productRefGroup = 7159826B1E33225900327798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715982691E33225900327798 /* TRZXConfirmFinancingBusinessCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715982681E33225900327798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7159827D1E33225900327798 /* LaunchScreen.storyboard in Resources */,
+				7159827A1E33225900327798 /* Assets.xcassets in Resources */,
+				715982781E33225900327798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41B7D7B6AEBD41722CD0E58B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXConfirmFinancingBusinessCategory/Pods-TRZXConfirmFinancingBusinessCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8260382E35ED658FAC4584C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97052453D12BBFF8E154DCE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXConfirmFinancingBusinessCategory/Pods-TRZXConfirmFinancingBusinessCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715982661E33225900327798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715982751E33225900327798 /* ViewController.m in Sources */,
+				715982721E33225900327798 /* AppDelegate.m in Sources */,
+				715982871E3322D500327798 /* CTMediator+TRZXConfirmFinancing.m in Sources */,
+				7159826F1E33225900327798 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		715982761E33225900327798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715982771E33225900327798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7159827B1E33225900327798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7159827C1E33225900327798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7159827F1E33225900327798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715982801E33225900327798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715982821E33225900327798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4DFAA97359F6DC4557A4FE /* Pods-TRZXConfirmFinancingBusinessCategory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXConfirmFinancingBusinessCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXConfirmFinancingBusinessCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		715982831E33225900327798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB15AAB0761D6DC832FC41DD /* Pods-TRZXConfirmFinancingBusinessCategory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXConfirmFinancingBusinessCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXConfirmFinancingBusinessCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715982651E33225900327798 /* Build configuration list for PBXProject "TRZXConfirmFinancingBusinessCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7159827F1E33225900327798 /* Debug */,
+				715982801E33225900327798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715982811E33225900327798 /* Build configuration list for PBXNativeTarget "TRZXConfirmFinancingBusinessCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715982821E33225900327798 /* Debug */,
+				715982831E33225900327798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715982621E33225900327798 /* Project object */;
+}
