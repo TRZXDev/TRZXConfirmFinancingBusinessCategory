@@ -9,7 +9,7 @@
 #import "CTMediator+TRZXConfirmFinancing.h"
 
 @implementation CTMediator (TRZXConfirmFinancing)
-- (UIViewController *)confirmFinancingViewControllerWithProjectId:(NSString *)projectId projectTitle:(NSString *)projectTitle ConfirmComplete:(dispatch_block_t)confirmComplete{
+- (UIViewController *)confirmFinancingViewControllerWithProjectId:(NSString *)projectId projectTitle:(NSString *)projectTitle confirmComplete:(confirmCompleteBlock)confirmComplete{
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"projectId"] = projectId;
     params[@"projectTitle"] = projectTitle;

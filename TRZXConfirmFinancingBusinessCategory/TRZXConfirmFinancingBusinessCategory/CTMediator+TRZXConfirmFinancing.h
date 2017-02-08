@@ -8,8 +8,9 @@
 
 #import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
+typedef void(^confirmCompleteBlock)(id message);
 
 @interface CTMediator (TRZXConfirmFinancing)
-- (UIViewController *)confirmFinancingViewControllerWithProjectId:(NSString *)projectId projectTitle:(NSString *)projectTitle ConfirmComplete:(dispatch_block_t)confirmComplete;
+- (UIViewController *)confirmFinancingViewControllerWithProjectId:(NSString *)projectId projectTitle:(NSString *)projectTitle confirmComplete:(confirmCompleteBlock)confirmComplete;
 
 @end
